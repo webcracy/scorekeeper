@@ -1,0 +1,30 @@
+h1. Scorekeeper
+
+Scorekeeper is a simple CLI app that enables you to replace paper for keeping scores. It's cool for periodic ritual card games with friends and families, for example.
+The major benefits are convenient access to game history and game analysis. 
+
+h2. Requirements
+
+Scorekeeper requires Ruby 1.8+, SQLite3 and the sqlite3 and active-record gems.
+
+Scorekeeper has only been tested in Mac OSX 10.5+ -- please let me know if you run it successfully or unsuccessfully elsewhere.
+
+h2. Getting started
+
+# Download the source code 
+# Open up a terminal window and _cd_ into the downloaded folder
+# Type _ruby scorekeeper.rb_ and hit Enter
+
+h2. Making Scorekeeper better
+
+Scorekeeper is sort of MVC. The Views are written within the _app/controllers.rb_ file and getting them out of there with a pretty CLI helper would be a great improvement.
+
+Scorekeeper's logic is very basic and I'd like to have the ability to add logic for specific types of games.
+
+If you want to help, fork away or send your patches. Bug fixes and other contributions are welcome too. 
+Thanks!
+
+h2. License
+
+Scorekeeper was created by Alex Solleiro -- alex@webcracy.org
+You are free to use and modify this code under the terms of the MIT License (please refer to the LICENSE file).
